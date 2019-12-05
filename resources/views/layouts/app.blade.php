@@ -60,14 +60,14 @@
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
                         <li class="nav-item"><a class="nav-link" href="#">Homepage</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutme.php">About me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="skills.php">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.php">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="exp.php">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="edu.php">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Hireme.php">Hire me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about">About me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hireme">Hire me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" role="button">
                                         <a class="dropdown-item" href="{{ route('logout') }}"

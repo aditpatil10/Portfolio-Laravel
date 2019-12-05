@@ -18,3 +18,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('portfolio','HomeScreenController');
+
+
+
+
+Route::get('/about', 'HomeScreenController@getabout')->name('about');
+Route::get('/experience', 'HomeScreenController@getexp')->name('experience');
+Route::get('/education', 'HomeScreenController@getedu')->name('education');
+Route::get('/hireme', 'HomeScreenController@gethire')->name('hireme');
+Route::get('/skills', 'HomeScreenController@getskills')->name('skills');
+Route::get('/portfolio', 'HomeScreenController@getportfolio')->name('portfolio');
